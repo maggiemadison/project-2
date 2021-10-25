@@ -4,7 +4,9 @@ import { Mathematics } from './Mathematics';
  const App = () => 
  {
   return (
-    <Mathematics />
+    <Mathematics numberOne="21" numberTwo="15" 
+    numberThree="11" numberFour="2" numberFive="73" 
+    numberSix="50"/>
   );
 };
 

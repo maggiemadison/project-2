@@ -1,6 +1,6 @@
 import React from "react";
 
-const Mathematics = () => {
+export const Mathematics = () => {
     return (
         <>
       <h1>Let's do some math !</h1>
@@ -29,6 +29,5 @@ const Mathematics = () => {
       <h2>The quotient of number 1 and number 2 = QUOTIENT</h2>
     </>
 
-    )
-}
-export default Mathematics;
+    );
+};

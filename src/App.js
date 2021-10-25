@@ -1,10 +1,11 @@
 import './App.css';
-import Mathematics from './Mathematics';
+import { Mathematics } from './Mathematics';
 
- const App = () => {
+ const App = () => 
+ {
   return (
     <Mathematics />
   );
-}
+};
 
 export default App;
